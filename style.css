@@ -95,3 +95,27 @@ body{
     line-height: 20px;
     font-weight: 500;
 }
+
+.rightBody {
+    position: relative;
+    line-height: 0;
+    padding: 0px;
+}
+
+.rightBody h1{
+    line-height: 60px;
+    padding-top: 40px;
+    margin-right: 50px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.rightBody p{
+    line-height: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.rightBody p i{
+    float: right;
+}
