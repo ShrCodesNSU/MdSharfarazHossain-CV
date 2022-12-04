@@ -1,0 +1,97 @@
+body{
+    background: lightblue;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 75%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+
+.container  .leftHeader{
+    position: relative;
+    background: white;
+    padding: 20px;
+}
+.container  .rightHeader{
+    position: relative;
+    background: rewhited;
+    padding: 20px;
+    align-items: center;
+}
+
+.container .leftHeader h1{
+    font-size: 40px;
+    line-height: 0px;
+}
+.container .leftHeader h4{
+    font-size: 20px;
+    color: green;
+}
+
+.container .leftHeader i{
+    color: green;
+}
+.container .leftHeader p{
+    font-size: 13px;
+}
+
+.container  .rightHeader img{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.bodyContainer {
+    position: relative;
+    width: 75%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.leftBody {
+    line-height: 0;
+    padding: 20px;
+}
+
+.leftBody h1{
+    color: green;
+    font-size: 30px;
+}
+
+.leftBody hr{
+    border-top: 5px solid green;
+}
+
+
+.leftBody h1{
+    font-weight: 600;
+}
+
+
+.leftBody h3{
+    font-weight: 550;
+    color: green;
+}
+.leftBody h4{
+    font-weight: 500;
+}
+
+.leftBody p{
+    line-height: 20px;
+    font-weight: 500;
+}
